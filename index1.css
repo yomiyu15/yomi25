@@ -1,0 +1,177 @@
+.body{
+
+	margin-top: 100px;
+}
+
+	.b1{
+   		background-color: pink;
+   		position:absolute;
+   		right: 0px;
+   		top: 0px;
+   		width: 100px;
+   		height:27px;
+   		border: 3px solid #00000;
+    }
+   	.b2{
+   		background-color: #D5374A;
+   		position:absolute;
+   	  	right: 0;
+   		top: 0;
+   		width: 100px;
+   		height:27px;
+   		border: 3px solid #00000;
+
+   		 
+
+   	}
+
+
+   .b3{
+   	   
+     	background-color: #F9F7A1 ;
+   		position:absolute;
+   		right: 0px;
+   		top: 0px;
+   		width: 100px;
+   		height:27px;
+   		
+   		
+   	}
+   p{
+   	margin-top: 20px;
+   }
+
+   h2{
+   	position: relative;
+   	text-align: center;
+   	margin-top:0; 
+   	font-size: 20px;
+   	font-family: "Comic Sans MS", cursive, sans-serif;
+
+   }
+   .boxed p{
+   	position: relative;
+   	z-index: 10;
+   }
+
+
+.boxed1{
+  border: 3px solid #000000;
+  margin-top: 60px;
+  background-color:gray;
+  width:30%;
+  height:20%; 
+  display:inline-block; 
+  margin-left: 10px;
+  margin-right:10px;
+  padding:10px; 
+  position: relative;
+}
+.boxed2 {
+  border: 3px solid #000000;
+  margin-top: 60px;
+  background-color:gray;
+  width:30%; 
+  height:20%;
+  display:inline-block; 
+  margin-left: 10px;
+  margin-right:10px;
+  padding:10px; 
+  position: relative;
+}
+.boxed3 {
+  border: 3px solid #000000;
+  margin-top: 60px;
+  background-color:gray;
+  width:30%;
+  height:20%; 
+  display:inline-block; 
+  margin-left: 10px;
+  margin-right:10px;
+  padding:10px; 
+  position: relative;
+}
+
+
+h1{
+	text-align: center;
+	margin-top: 50px;
+	font-family:omic Sans MS, cursive, sans-serif;
+}
+  p{
+    font-family: "Comic Sans MS", cursive, sans-serif
+
+  }
+   @media (min-width: 992px) {
+ 	.boxed1{
+ 		 
+ 		  width: 30%;
+ 	}
+    .boxed2{
+     
+      width: 30%;
+  }
+    .boxed3{
+     
+      width: 30%;
+  }
+
+ 	  
+   	  
+    	
+    }
+    @media(min-width:  768px ) and (max-width:  991px) {
+    
+      .boxed1{
+
+      
+      	 width: 30%;
+         height: 20%;
+
+      	
+      }
+       .boxed2{
+
+      
+         width: 30%;
+         height: 20%;
+
+
+        
+      }
+   
+      .boxed3{
+
+      
+         width: 65%;
+         height: 20%;
+
+        
+      }
+   
+   
+     
+    	
+    }
+    @media(max-width: 767px) {
+    	.boxed1{
+    		
+    		  width: 90%;
+          height: 20%;
+
+    	}
+        .boxed2{
+        
+          width: 90%;
+          height: 20%;
+
+      }
+        .boxed3{
+        
+          width: 90%;
+          height: 20%;
+
+      }
+
+   	}
+
