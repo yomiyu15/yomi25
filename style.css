@@ -1,0 +1,258 @@
+body
+{
+ margin:0;
+ padding:0;
+ font-family: sans-serif;
+}
+header
+{
+	position: absolute;
+	top:0;
+	left:0;
+	padding: 0 100px;
+	background:#808080;
+	width:100%;
+	box-sizing: border-box;
+
+}
+header.container
+{
+	color:#000000;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul 
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+header nav ul li
+{
+	list-style: none;
+}
+
+header nav ul li a
+{
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	color: #fff;
+	text-decoration: none;
+
+}
+.menu{
+	float:right;
+	line-height: 50px;
+	font-size: 24px;
+	cursor: pointer;
+	display: none;
+}
+
+
+	.b1{
+   		text-align: center;
+   		position:absolute;
+   		right: 0px;
+   		top: 0px;
+   		width: 100px;
+   		height:27px;
+   		border: 3px solid #00000;
+    }
+   	.b2{
+   		text-align: center;
+   		position:absolute;
+   	    right: 0;
+   		top: 0;
+   		width: 100px;
+   		height:27px;
+   		border: 3px solid #00000;
+
+   		 
+
+   	}
+
+
+   .b3{
+   	   
+        text-align: center;
+   		position:absolute;
+   		right: 0px;
+   		top: 0px;
+   		width: 100px;
+   		height:27px;
+   		
+   		
+   	}
+   p{
+   	margin-top: 20px;
+   }
+
+   h2{
+   	position: relative;
+   	text-align: center;
+   	margin-top:0; 
+   	font-size: 20px;
+   	font-family: "Comic Sans MS", cursive, sans-serif;
+
+   }
+   .boxed p{
+   	position: relative;
+   	z-index: 10;
+   }
+
+
+.boxed1{
+  border: 3px solid #000000;
+  margin-top: 60px;
+  background-color:gray;
+  width:30%;
+  height:20%; 
+  display:inline-block; 
+  margin-left: 10px;
+  margin-right:10px;
+  padding:10px; 
+  position: relative;
+}
+.boxed2 {
+  border: 3px solid #000000;
+  margin-top: 60px;
+  background-color:gray;
+  width:30%; 
+  height:20%;
+  display:inline-block; 
+  margin-left: 10px;
+  margin-right:10px;
+  padding:10px; 
+  position: relative;
+}
+.boxed3 {
+  border: 3px solid #000000;
+  margin-top: 60px;
+  background-color:gray;
+  width:30%;
+  height:20%; 
+  display:inline-block; 
+  margin-left: 10px;
+  margin-right:10px;
+  padding:10px; 
+  position: relative;
+}
+
+
+h1{
+	text-align: center;
+	margin-top: 50px;
+	font-family:omic Sans MS, cursive, sans-serif;
+}
+   @media (max-width: 991px) {
+
+   	  header{
+   		padding: 0 20px;
+
+     	}
+     .menu{
+     	display: block;
+     }
+      header nav
+      { position: absolute;
+      	/*display: none;*/
+      	width: 100%;
+      	height:calc(100vh-50px);
+      	top:50px;
+      	left:0;
+      	transition: 0.5s;
+
+      }
+      header nav ul{
+      	display: block;
+      	text-align: center;
+      }
+
+   @media (min-width: 992px) {
+
+
+
+ 	.boxed1{
+ 		 
+ 		  width: 30%;
+ 	}
+    .boxed2{
+     
+      width: 30%;
+  }
+    .boxed3{
+     
+      width: 30%;
+
+
+  }
+
+ 	  
+   	  
+    	
+    }
+    @media(min-width:  768px ) and (max-width:  991px) {
+    
+      .boxed1{
+
+      
+      	 width: 30%;
+         height: 20%;
+
+      	
+      }
+       .boxed2{
+
+      
+         width: 30%;
+         height: 20%;
+
+
+        
+      }
+   
+      .boxed3{
+
+      
+         width: 65%;
+         height: 20%;
+
+        
+      }
+   
+   
+     
+    	
+    }
+    @media(max-width: 767px) {
+    	.boxed1{
+    		
+    		  width: 90%;
+          height: 20%;
+
+    	}
+        .boxed2{
+        
+          width: 90%;
+          height: 20%;
+
+      }
+        .boxed3{
+        
+          width: 90%;
+          height: 20%;
+
+      }
+
+   	}
+
